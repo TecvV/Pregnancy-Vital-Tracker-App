@@ -16,6 +16,8 @@ Welcome to the **Pregnancy Vital Tracker App!**. This Android application, devel
 - **User-Friendly Interface:** Manage listings with an intuitive and sleek interface, ensuring a smooth experience.
 
 ## Installation
+Kindly download the complete source code from App.zip
+Files are not getting displayed due to large size
 
 ### Prerequisites
 
