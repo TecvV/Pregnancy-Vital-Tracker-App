@@ -1,17 +1,19 @@
-# Cyclizer App
+# Pregnancy Vital Tracker App
 
 ## Overview
 
-Welcome to the **Cyclizer App!**. This Android application, developed in Kotlin, is designed to connect college students for buying and selling bicycles. It bridges the gap between incoming and graduating students, making it easy for them to exchange bicycles efficiently. With the integration of Google Firebase, the app ensures secure transactions and smooth communication between buyers and sellers.
+Welcome to the **Pregnancy Vital Tracker App!**. This Android application, developed in Kotlin, is designed to help expecting mothers monitor their vital signs efficiently. With real-time data storage using the Room database, the app ensures accurate tracking of crucial health metrics such as systolic and diastolic blood pressure, heartbeat, fetal kicks, and timely reminders for taking vitals every 5 hours.
 
 ## Features
 
-- **Secure Cloud Storage with Firebase:** Store bicycle listings and related data securely in the cloud, accessible anytime by users.
-- **User Listings with Images:** Users can create detailed bicycle listings with images and descriptions, making it easier for potential buyers to find exactly what they need.
-- **Secure Authentication:** Implemented Firebase Authentication to ensure that only verified users can buy or sell bicycles, enhancing security.
-- **1:1 Communication:** Buyers and sellers can securely communicate with each other through the app to discuss and finalize deals.
-- **Efficient Item Sharing:** A common server setup allows for efficient sharing and viewing of items, ensuring smooth and quick transactions between users.
-- **User-Friendly Interface:** Manage listings with an intuitive and sleek interface, ensuring a smooth experience for both buyers and sellers.
+- **Real-time Data Storage with Room Database:** Store systolic/diastolic blood pressure, heartbeat, number of fetal kicks, and reminders securely on the device.
+- **Vitals Tracking:** Users can log their vitals at regular intervals, ensuring consistent monitoring of their health and the baby’s well-being.
+- **Secure Authentication:** Implemented Firebase Authentication to ensure that only verified users can use, enhancing security.
+- **Automated Reminders:** A reminder system notifies users every 5 hours to record their vitals, promoting regular checkups.
+- **MyPost Section:** Users can add and manage health-related information in real time.
+- **MyCart for Important Posts:** Users can save selected posts in the MyCart section, which contains only necessary details for easy access.
+- **Reminder for MyCart Items:** Users can set reminders for specific posts in MyCart, ensuring they never miss tracking important vitals.
+- **User-Friendly Interface:** Manage listings with an intuitive and sleek interface, ensuring a smooth experience.
 
 ## Installation
 
@@ -19,7 +21,7 @@ Welcome to the **Cyclizer App!**. This Android application, developed in Kotlin,
 
 - [Kotlin](https://kotlinlang.org/)
 - [Android Studio](https://developer.android.com/studio)
-- [Google Firebase](https://firebase.google.com/) account for backend services
+- [Room Database](https://developer.android.com/training/data-storage/room) account for backend services
 
 
 
